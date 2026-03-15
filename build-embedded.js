@@ -8,7 +8,7 @@ const fs = require('fs');
 const path = require('path');
 
 const GALLERY_DIR = __dirname;
-const THUMBNAILS_DIR = path.join(GALLERY_DIR, 'thumbnails');
+const THUMBNAILS_DIR = path.join(GALLERY_DIR, 'images', 'thumbnails');
 
 // Map: filename (e.g. slot-madokamagica.png) -> base64 data URI
 function loadImageAsBase64(filename) {
